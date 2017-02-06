@@ -1,0 +1,431 @@
+img{
+  margin-left:-4%;
+  margin-bottom: -2%;
+  width: 65%;
+  height:200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fix
+}
+html{
+  background: url("C:/Users/Arminoos/Desktop/official site/healthcare.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
+  
+}
+header{
+  border-radius: 5px;
+}
+body{
+  background-color: rgba(216, 219, 234, 0.39);
+  border-radius: 5px;
+}
+ul{
+  background-color: #274166;
+  list-style-type: : none
+  border-bottom:4px solid rgb(67, 147, 139);
+  border-radius: 5px;
+  font-size: 100%;
+  float: center;
+
+
+}
+li{
+  color: white;
+  font-family: verdana,sans-serif;
+  display: inline-block;
+  border-right: 1px solid #bbb;
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  text-align: center;
+  padding: 6px 10px;
+  margin-left: 0%;
+}
+li:hover{
+  background-color: #003f38;
+  color: white;
+
+}
+button{
+  border:line;
+  border-radius: 50%;
+  width: 7%;
+  padding: 3.25% 3%;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#003f38;
+  border-radius: 50%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+.btn01{
+  background: url("C:/Users/Arminoos/Desktop/official site/heart3.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
+  position: relative;
+  display: inline-block;
+ 
+  
+}
+.btn01 .tooltiptext {
+    visibility: hidden;
+    width: 320%;
+    background-color: rgb(7, 15, 26);
+    opacity: 10%;
+    color: #009688;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+    
+}
+
+.btn01:hover .tooltiptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+.btn01:hover .overlay {
+  opacity: 1;
+}
+.btn02{
+  background: url("C:/Users/Arminoos/Desktop/official site/liver2.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
+  margin-left:25%;
+  position: relative;
+  display: inline-block;
+}
+.btn02 .tooltiptext {
+    visibility: hidden;
+    width: 320%;
+    background-color: rgb(7, 15, 26);
+    opacity: 10%;
+    color: #009688;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+
+.btn02:hover .tooltiptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+.btn02:hover .overlay {
+  opacity: 1;
+}
+.btn03{
+  background: url("C:/Users/Arminoos/Desktop/official site/lungs1.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
+  position: relative;
+  display: inline-block;
+}
+.btn03 .tooltiptext {
+    visibility: hidden;
+    width: 320%;
+    background-color: rgb(7, 15, 26);
+    opacity: 10%;
+    color: #009688;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+    
+}
+
+.btn03:hover .tooltiptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+.btn03:hover .overlay {
+  opacity: 1;
+}
+
+
+.btn04{
+  background: url("C:/Users/Arminoos/Desktop/official site/gastrointetial01.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
+  margin-left:25%;
+  position: relative;
+  display: inline-block;
+}
+.btn04 .tooltiptext {
+    visibility: hidden;
+    width: 320%;
+    background-color: rgb(7, 15, 26);
+    opacity: 10%;
+    color: #009688;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+
+.btn04:hover .tooltiptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+.btn04:hover .overlay {
+  opacity: 1;
+}
+.btn05{
+  background: url("C:/Users/Arminoos/Desktop/official site/epiderm.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
+  position: relative;
+  display: inline-block;
+   
+}
+.btn05 .tooltiptext {
+    visibility: hidden;
+    width: 320%;
+    background-color: rgb(7, 15, 26);
+    opacity: 10%;
+    color: #009688;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+    
+}
+
+.btn05:hover .tooltiptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+.btn05:hover .overlay {
+  opacity: 1;
+}
+.btn06{
+  background: url("C:/Users/Arminoos/Desktop/official site/eye.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
+  margin-left:25%;
+  position: relative;
+  display: inline-block;
+}
+.btn06 .tooltiptext {
+    visibility: hidden;
+    width: 320%;
+    background-color: rgb(7, 15, 26);
+    opacity: 10%;
+    color: #009688;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+
+.btn06:hover .tooltiptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+.btn06:hover .overlay {
+  opacity: 1;
+}
+.btn07{
+  background: url("C:/Users/Arminoos/Desktop/official site/testicle.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
+  position: relative;
+  display: inline-block;
+   
+}
+.btn07 .tooltiptext {
+    visibility: hidden;
+    width: 320%;
+    background-color: rgb(7, 15, 26);
+    opacity: 10%;
+    color: #009688;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+    
+}
+
+.btn07:hover .tooltiptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+.btn07:hover .overlay {
+  opacity: 1;
+}
+.btn08{
+  background: url("C:/Users/Arminoos/Desktop/official site/oie.png");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
+  margin-left:25%;
+  position: relative;
+  display: inline-block;
+}
+.btn08 .tooltiptext {
+    visibility: hidden;
+    width: 320%;
+    background-color: rgb(7, 15, 26);
+    opacity: 10%;
+    color: #009688;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+
+.btn08:hover .tooltiptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+.btn08:hover .overlay {
+  opacity: 1;
+}
+.btn09{
+  background: url("C:/Users/Arminoos/Desktop/official site/tooth2.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
+  position: relative;
+  display: inline-block;
+}
+.btn09 .tooltiptext {
+    visibility: hidden;
+    width: 320%;
+    background-color: rgb(7, 15, 26);
+    opacity: 10%;
+    color: #009688;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+    
+}
+
+.btn09:hover .tooltiptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+.btn09:hover .overlay {
+  opacity: 1;
+}
+.btn10{
+  background: url("C:/Users/Arminoos/Desktop/official site/Vaccine.jpg");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
+  margin-left:25%;
+  position: relative;
+  display: inline-block;
+}
+.btn10 .tooltiptext {
+    visibility: hidden;
+    width: 320%;
+    background-color: rgb(7, 15, 26);
+    opacity: 10%;
+    color: #009688;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+
+.btn10:hover .tooltiptext {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+.btn10:hover .overlay {
+  opacity: 1;
+}
+
+
